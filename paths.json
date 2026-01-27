@@ -3,6 +3,7 @@
     "/content/wknd-xwalk/:/",
     "/content/wknd-xwalk/configuration:/.helix/config.json",
     "/content/wknd-xwalk/metadata:/metadata.json"
+    "/content/wknd-xwalk/robots:/robots.json"
   ],
   "includes": [
     "/content/wknd-xwalk/"
