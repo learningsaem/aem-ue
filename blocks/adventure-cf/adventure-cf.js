@@ -61,7 +61,7 @@ function createDisplay(contentfragment) {
             <div class="content-fragment-image">
                 <picture>
                     <source srcset="${getAEMHost()}${cfPrimaryImagePath}?width=1200&format=webply&optimize=medium" type="image/webp">
-                    <img src="${getAEMHost()}${cfPrimaryImagePath}?width=1200&format=webply&optimize=medium" alt="${data[keys.title]}" loading="lazy" data-aue-type="media" data-aue-prop="${keys.primaryImage}">
+                    <img src="${getAEMHost()}${cfPrimaryImagePath}?width=1200&format=webply&optimize=medium" alt="${data[keys.title]}" loading="eager" data-aue-type="media" data-aue-prop="${keys.primaryImage}">
                 </picture>
             </div>
             <div class="content-fragment-${keys.title}-overlay">
